@@ -1,0 +1,55 @@
+/* Colors 
+     --- #455852
+     --- #9c9b7e
+     --- #f9d49b
+     --- #f29b5e
+     --- #e45b39
+*/
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.col-centered{
+    margin:0 auto;
+}
+
+.footer-para{
+    font-size: 70%;
+    color: rgb(168, 168, 168);
+    font-weight: 400;
+    margin: 0;
+}
+
+.about-us, .contact-us{
+    font-size: 70%;
+    color: #455852;
+}
+
+.about-us:hover, .contact-us:hover{
+    color:#e45b39;
+}
+
+.footer-content{
+    text-align: center;
+}
